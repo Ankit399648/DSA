@@ -7,6 +7,5 @@ class SquarePattern{
             System.out.println();
 
         }
-        System.out.println("new");
     }
 }
