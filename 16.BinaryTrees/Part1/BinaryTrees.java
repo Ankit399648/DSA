@@ -187,7 +187,7 @@ public class BinaryTrees {
 
         public Information(Node node, int hd) {
             this.node = node;
-            this.hd = hd;
+            this.hd = hd;  // horizontal distance
         }
     }
 
@@ -274,7 +274,7 @@ public class BinaryTrees {
 
         int i = 0;
         for (; i < Math.min(path1.size(), path2.size()); i++) {
-            if (path1.get(i) != path2.get(i)) {
+            if (path1.get(i).equals(path2.get(i))) {
                 break;
             }
         }
